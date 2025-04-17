@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Northwest Robotics</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="min-h-screen bg-black text-white">
+    <!-- Header -->
+    <header class="fixed-header">
+      <div class="container">
+        <div class="header-content">
+          <a href="index.html" class="logo">
+            <div class="logo-circle">
+              <span class="logo-text">R</span>
+            </div>
+            <span class="logo-name">Northwest Robotics</span>
+          </a>
+          
+          <!-- Mobile Navigation Toggle -->
+          <div class="mobile-nav-toggle">
+            <button id="menuToggle" aria-label="Toggle menu">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="menu-icon">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            </button>
+          </div>
+          
+          <!-- Desktop Navigation -->
+          <nav class="desktop-nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="team.html" class="nav-link">Team</a>
+            <a href="sponsors.html" class="nav-link">Sponsors</a>
+            <a href="https://nwghs-robotics.gitbook.io/robo-vikings-9990-docs/" target="_blank" rel="noopener noreferrer" class="nav-link">Documentation</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+          </nav>
+        </div>
+      </div>
+      
+      <!-- Mobile Navigation Menu -->
+      <div id="mobileMenu" class="mobile-menu">
+        <nav class="mobile-nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="team.html" class="nav-link">Team</a>
+          <a href="sponsors.html" class="nav-link">Sponsors</a>
+          <a href="https://nwghs-robotics.gitbook.io/robo-vikings-9990-docs/" target="_blank" rel="noopener noreferrer" class="nav-link">Documentation</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-image"></div>
+        <div class="container hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">Innovating past boundaries</h1>
+            <p class="hero-subtitle">Engineering minds, robots, and our communities</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about-section">
+        <div class="container">
+          <div class="about-content">
+            <div class="about-text">
+              <h2 class="section-title">
+                About <span class="text-accent">Northwest Robotics</span>
+              </h2>
+              <p class="section-text">
+                Founded in 2015, Northwest Robotics <span style="color: red;">(Official name: Robo Vikings #9990)</span>  is a team of passionate high school students interested in the
+                aspects of robotics, programming, engineering, financing, and more.
+              </p>
+              <p class="section-text">
+                Our mission is to create robots to compete in the FIRST Tech Challenge and also serve our community in
+                Guilford County through STEM showcases and workshops.
+              </p>
+              <div class="stats-container">
+                <div class="stat-box">
+                  <span class="stat-number">4</span>
+                  <span class="stat-label">Awards</span>
+                </div>
+                <div class="stat-box">
+                  <span class="stat-number">3</span>
+                  <span class="stat-label">Mentors</span>
+                </div>
+                <div class="stat-box">
+                  <span class="stat-number">14</span>
+                  <span class="stat-label">Team Members</span>
+                </div>
+              </div>
+            </div>
+            <div class="about-image-container">
+              <div class="about-image">
+                <div class="image-overlay"></div>
+                <img src="images/team.png" alt="Team member at competition">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sponsors Preview Section -->
+      <section class="sponsors-preview-section">
+        <div class="container">
+          <h2 class="section-title text-center">
+            Our <span class="text-accent">Sponsors</span>
+          </h2>
+          <p class="section-subtitle text-center">
+            We are grateful for the support of these organizations that make our work possible.
+          </p>
+
+          <!-- Sponsors Grid -->
+          <div class="sponsors-grid">
+            <div class="sponsor-tile">
+              <img src="images/sponsors/terracon-logo.png" alt="Terracon" class="sponsor-logo">
+            </div>
+            <div class="sponsor-tile">
+              <img src="images/sponsors/schneider-logo.png" alt="Schneider Electric" class="sponsor-logo">
+            </div>
+            <div class="sponsor-tile">
+              <img src="images/sponsors/ppg-logo.png" alt="PPG" class="sponsor-logo">
+            </div>
+            <div class="sponsor-tile">
+              <img src="images/sponsors/lowes-logo.png" alt="Lowes Foods" class="sponsor-logo">
+            </div>
+          </div>
+
+          <div class="text-center">
+            <a href="sponsors.html" class="button">View All Sponsors</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section - Simplified -->
+      <section id="contact" class="contact-section">
+        <div class="container text-center">
+          <h2 class="section-title">
+            <span class="text-accent">Contact</span> Us
+          </h2>
+
+          <div class="contact-grid">
+            <!-- Email Tile -->
+            <div class="contact-tile">
+              <div class="contact-icon-container">
+                <svg xmlns="http://www.w3.org/2000/svg" class="contact-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h3 class="contact-title">Email</h3>
+              <p class="contact-text">roboticsnorthwest@gmail.com</p>
+            </div>
+
+            <!-- Location Tile -->
+            <div class="contact-tile">
+              <div class="contact-icon-container">
+                <svg xmlns="http://www.w3.org/2000/svg" class="contact-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <h3 class="contact-title">Location</h3>
+              <p class="contact-text">5240 NW School Rd, Greensboro, NC, 27409</p>
+            </div>
+
+            <!-- Social Media Tile -->
+            <div class="contact-tile">
+              <h3 class="contact-title">Social Media</h3>
+              <div class="social-links">
+                <a href="https://github.com/nwghsvikings" target="_blank" rel="noopener noreferrer" class="social-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="social-icon">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span class="social-name">Github</span>
+                </a>
+                <a href="#" class="social-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="social-icon">
+                    <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+                  </svg>
+                  <span class="social-name">TikTok</span>
+                </a>
+                <a href="https://www.instagram.com/robovikings_nwhs/" target="_blank" rel="noopener noreferrer" class="social-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="social-icon">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                  <span class="social-name">Instagram</span>
+                </a>
+                <a href="https://ftcscout.org/teams/9990" target="_blank" rel="noopener noreferrer" class="social-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="social-icon">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  </svg>
+                  <span class="social-name">FTC Scout</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-content">
+          <p class="copyright">© <span id="currentYear"></span> Northwest Robotics. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="#" class="footer-link">Privacy Policy</a>
+            <a href="#" class="footer-link">Terms of Service</a>
+            <a href="#" class="footer-link">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+    
+    // Mobile menu toggle
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    
+    menuToggle.addEventListener('click', function() {
+      mobileMenu.classList.toggle('active');
+      
+      // Toggle between menu and close icons
+      const menuIcon = menuToggle.querySelector('.menu-icon');
+      if (mobileMenu.classList.contains('active')) {
+        menuIcon.innerHTML = `
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        `;
+      } else {
+        menuIcon.innerHTML = `
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        `;
+      }
+    });
+    
+    // Close mobile menu when clicking on a link
+    const mobileNavLinks = document.querySelectorAll('.mobile-nav .nav-link');
+    mobileNavLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        mobileMenu.classList.remove('active');
+        
+        // Reset to menu icon
+        const menuIcon = menuToggle.querySelector('.menu-icon');
+        menuIcon.innerHTML = `
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        `;
+      });
+    });
+  </script>
+</body>
+</html>
