@@ -768,6 +768,11 @@ a {
   transition: background-color var(--transition-speed);
 }
 
+.button3 {
+  position: sticky;
+  margin-bottom: 60px;
+}
+
 .button:hover {
   background-color: var(--color-red-700);
 }
@@ -911,5 +916,51 @@ a {
 @media (min-width: 1280px) {
   .members-grid {
     grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.team-group-photo-container {
+  margin-bottom: 4rem;
+  background-color: rgba(127, 29, 29, 0.1);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(127, 29, 29, 0.3);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.team-group-photo {
+  position: relative;
+  width: 100%;
+}
+
+.team-group-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.team-photo-caption {
+  padding: 1rem;
+  text-align: center;
+  color: var(--color-gray-300);
+  font-size: 0.875rem;
+  border-top: 1px solid rgba(127, 29, 29, 0.3);
+}
+
+@media (min-width: 768px) {
+  .team-group-photo {
+    height: 400px;
+  }
+  
+  .team-group-photo img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .team-group-photo {
+    height: 500px;
   }
 }
