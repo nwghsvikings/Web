@@ -81,6 +81,7 @@ a {
   border-bottom: 1px solid rgba(127, 29, 29, 0.3);
 }
 
+
 .header-content {
   display: flex;
   align-items: center;
@@ -175,7 +176,7 @@ a {
 /* Hero Section */
 .hero-section {
   position: relative;
-  height: 70vh;
+  height: 80vh;
   display: flex;
   align-items: center;
 }
@@ -516,7 +517,7 @@ a {
 
 .image-overlay-gradient {
   position: absolute;
-  inset: 0;
+  inset: 4;
   background-image: linear-gradient(to top, var(--color-black), transparent);
 }
 
